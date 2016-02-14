@@ -3408,7 +3408,61 @@
     "pictureLink":"",
     "orderAmmount":"",
     "spicy":false,
-    "dishNumber":"5"
+    "dishNumber":"6"
+  },{
+    "dish": "Fried Chicken Nuggets",
+    "cDish": "捲",
+    "price": 3.75,
+    "priceRice": 4.25,
+    "pricePorkRice": 4.95,
+    "priceShrimpRice": 5.20,
+    "sizes":"",
+    "menuType":"Special Platters",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":false,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":false,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"7"
+  },
+  {
+    "dish": "Fried Shrimp",
+    "cDish": "捲",
+    "price": 4.75,
+    "priceRice": 5.85,
+    "pricePorkRice": 6.35,
+    "priceShrimpRice": 6.95,
+    "sizes":"",
+    "menuType":"Special Platters",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"8"
   }
-  
+
+
 ]
