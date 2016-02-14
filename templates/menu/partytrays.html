@@ -1,0 +1,29 @@
+<div class="row" >
+        <div class=" col-md-12 col-sm-12 col-xs-12 ">
+            <div class="menuWrapper">                
+                <div class="menuHeader"><h3>Sex to the Wiz</h3></div><!--end menu header-->
+                    <div id="hspecials" class="menuLayout">
+                        
+                            <table ng-repeat="menu in menuData |limitTo:5"class="table table-responsive borderless">
+                               
+                                    <tr >
+                                        <td nowrap><span class="chinese">{{ menu.cDish }}</span><span class="english">{{ menu.dish }}</span></td>
+                                        <td width="100%"><span class="elipsis"></span></td>
+                                        <td width="5%"><span class="price">{{ menu.price | currency }}</span> </td>
+                                    </tr>
+                                
+                            </table>
+                        
+                    </div><!--end hspecials-->
+                </div>
+            </div><!--end col-md-10-->
+</div><!--end row-->
+<script>
+TweenMax.staggerTo(".menuWrapper", .2, {
+         y:"50px",
+         opacity:1,
+         delay:0.2,
+        ease: Sine.easeOut
+      },.1);
+
+</script>

@@ -1,0 +1,16 @@
+<div class="menuWrapper">                
+    <div class="menuHeader"><h3>Appetizer</h3></div><!--end menu header-->
+    	<div id="hspecials" class="menuLayout">
+        
+            <table ng-repeat="menu in menuData |limitTo:10"class="table table-responsive borderless">
+               
+                    <tr >
+                        <td nowrap><span class="chinese">{{ menu.cDish }}</span><span class="english">{{ menu.dish }}</span></td>
+                        <td width="100%"><span class="elipsis"></span></td>
+                        <td width="5%"><span class="price">{{ menu.price | currency }}</span> </td>
+                    </tr>
+                
+            </table>
+        
+    </div><!--end hspecials-->
+</div>

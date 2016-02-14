@@ -1,0 +1,46 @@
+
+<div class="menuBuffer"></div>
+<!--begin content-->
+
+<div class="wrapperMenu">
+<div class="container ">
+
+
+   <div class="menuBack"> 
+        <div class="row" style="margin-top:10px">
+            <div class="col-sm-2 hidden-xs"style="padding-left:0px"><img style="height:15%"src="/img/border.svg"></div>
+            <div class="col-sm-8 col-xs-12 titleContainer" style="text-align:center"><h2>{{menuSections[tab].name}}</h2><p>{{menuSections[tab].parens}}</p><p>{{menuSections[tab].parens2}}</p></div>
+            <div class="col-sm-2 hidden-xs" style="text-align:right;padding-right:0px"><img src="/img/border.svg" style="        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: 'FlipH';
+        height:15%"></div>
+        </div><!--end row-->
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-xs-12 hidden-sm hidden-xs navigation-buttons" style="align:center;text-align:center" >
+                <div class="navigation-buttons-wrapper">
+                    <ul class="">
+                        <a ng-click="tabChange('0');" ui-sref=".mainMenu"><li ng-class="{active: tab === '0'}">Main Menu</li></a>
+                        <a ng-click="tabChange('1');" ui-sref=".houseSpecials"><li ng-class="{active: tab === '1'}">House Specials</li></a>
+                        <a ng-click="tabChange('2');" ui-sref=".lunchSpecials"><li ng-class="{active: tab === '2'}">Lunch Specials</li></a>
+                        <a ng-click="tabChange('3');" ui-sref=".comboPlatters"><li ng-class="{active: tab === '3'}">Combo Platters</li></a>
+                        <a ng-click="tabChange('4');" ui-sref=".specialPlatters"><li ng-class="{active: tab === '4'}">Special Platters</li></a>
+                        <a ng-click="tabChange('5');" ui-sref=".partyTrays"><li ng-class="{active: tab === '5'}">Party Trays</li></a>
+                    </ul>
+                </div>
+            </div><!--end col-md-3-->
+
+
+        </div><!--end row-->
+        <div ui-view>
+            <div ng-include="'/templates/menu/mainmenu.html'"></div>
+        </div>
+        
+    </div>
+</div><!--end container-->
+</div><!--end menuBack-->
+</div><!--end wrapper-->
+

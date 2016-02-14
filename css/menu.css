@@ -1,0 +1,345 @@
+/*menu*/
+*{
+   	transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+.elipsis{
+	height:0px;
+	border-top:1px dotted #000;
+	border-bottom: 1px dotted #fff;
+	width:100%;
+	margin-top:15px;
+	display:block;
+	text-align:center;
+}
+.menuBuffer{
+	padding-top:40px;
+}
+.wrapperMenu{
+	background-image:url("../img/backgroundzijing.png");
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-color:#ededed;
+}
+.menuHeader{
+	width:auto;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	padding:10px 20px;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea5135+0,d1492f+100 */
+background: rgb(234,81,53); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(234,81,53,1) 0%, rgba(209,73,47,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(234,81,53,1) 0%,rgba(209,73,47,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(234,81,53,1) 0%,rgba(209,73,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5135', endColorstr='#d1492f',GradientType=1 ); /* IE6-9 */
+
+
+}
+.menuHeader h3{
+	font-size:20px;
+	font-weight:500;
+	color:white;
+	margin:0px;
+	display:inline;
+
+}
+.menuHeader p, .menuHeader span{
+	color:white;
+	display:inline;
+	text-align:right;
+}
+.menuWrapper{
+opacity:0;
+top:-30px;
+position:relative;
+}
+.miniMenuWrapper{
+opacity:0;
+top:0px;
+position:relative;
+}
+
+.menuLayout{
+	margin:0px 10px 20px;
+	padding:10px 20px;
+	border:1px solid #D1492F;
+	background-image:url(../img/fortune.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:40%;
+	background-attachment:fixed;
+	border-top:none;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	min-height:100px;
+	-webkit-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+}
+.menuLayout td{
+font-size:14px;
+}
+.foreground{
+	height:100%;
+	width:auto;
+	margin:auto;
+}
+.chinese{
+	font-size:14px;
+	font-weight:bold;
+	color:#656565;
+		display:inline;
+}
+.english{
+	font-size:16px;
+	color:#000;
+	display:inline;
+}
+.price{
+	font-size:16px;
+	color:#d1492f;
+	display:inline;
+}
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+.menuDivider{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #ededed;
+
+}
+ol, ul {
+	list-style: none;
+	padding:0px;
+}
+
+.titleContainer{
+	margin:20px 0px;
+	height:100px;
+}
+.titleContainer h2{
+color:#656565;
+}
+.titleContainer p{
+color:#656565;
+}
+.menuBack{
+	min-height:100%;
+	background-color:#ffffff;
+	padding-top:80px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:60px;
+	margin-top:-80px;
+	margin-bottom:-40px;
+	position:relative;
+	-webkit-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+}
+.navigation-buttons{
+	width:100%;
+	
+
+	border-bottom:1px solid #DAAD70;
+}
+.navigation-buttons li{
+	display:inline;
+	float:left;
+	margin:0px 10px;
+	padding:0px ;
+}
+.navigation-buttons a li{
+	margin:0px;
+	padding:10px 20px;
+	border-right:1px solid #fff;
+
+		transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+
+}
+.navigation-buttons-wrapper a li.active{
+	border-bottom:2px solid #D1492F;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea5135+0,ef5837+100 */
+background: rgb(234,81,53); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(234,81,53,1) 0%, rgba(239,88,55,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(234,81,53,1) 0%,rgba(239,88,55,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(234,81,53,1) 0%,rgba(239,88,55,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5135', endColorstr='#ef5837',GradientType=1 ); /* IE6-9 */
+	color:#fff;
+	margin-bottom:-2px;
+		transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+.navigation-buttons a{
+	color:#000;
+	font-weight:700;
+	text-decoration:none;
+}
+.navigation-buttons-wrapper li:hover{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea5135+0,ef5837+100 */
+background: rgb(234,81,53); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(234,81,53,1) 0%, rgba(239,88,55,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(234,81,53,1) 0%,rgba(239,88,55,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(234,81,53,1) 0%,rgba(239,88,55,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5135', endColorstr='#ef5837',GradientType=1 ); /* IE6-9 */
+
+color:#fff;
+	transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+.table-responsive{
+	margin:0;
+}
+.navigation-buttons-wrapper{
+	display: table;
+                margin: 0 auto;
+}
+.menuHeader p{
+	padding-right:25px;
+	font-size:15px;
+}
+.sectionFilter{
+	width:100%;
+	min-height:50px;
+	margin:0px auto;
+	text-align:center;
+}
+.sectionFilter ul
+{
+padding-left: 0;
+margin-left: 30px;
+float: left;
+width: 100%;
+}
+
+.sectionFilter ul li { display: inline; }
+
+.sectionFilter ul li a
+{
+	margin:1px 1px;
+padding: 1em 1.5em;
+text-decoration: none;
+float: left;
+color:#000000;
+
+}
+.sectionFilter ul li a:hover
+{
+background-color: #bfbfbf;
+text-decoration: none;
+color:#ffffff;
+border-radius:5px;
+}
+.sectionFilter ul li a.subActive
+{
+background-color: #bfbfbf;
+text-decoration: none;
+border-right: 1px solid #fff;
+color:#ffffff;
+border-radius:5px;
+}
+/*------------------- Animations ------------------- */
+
+
+
+/*---------- Media Queries ----------*/
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    	.titleContainer{
+	margin:20px 0px;
+	min-height:50px;
+}
+.menuBack{
+	min-height:100%;
+	width:100%;
+	background-color:#ffffff;
+	padding-top:80px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:60px;
+	margin-top:-80px;
+	margin-bottom:-40px;
+	position:relative;
+	-webkit-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.75);
+}
+.menuHeader{
+	margin:0px;
+}
+.menuLayout{
+	padding:0px;
+	margin:0px;
+}
+.menuWrapper{
+	margin-top:20px;
+	-webkit-transition:all linear 0.5s;
+  	transition:all linear 0.5s;
+}
+#menuWrapper{
+	-webkit-transition:all linear 0.5s;
+  	transition:all linear 0.5s;
+}
+.ng-show{
+
+		-webkit-transition:all linear 0.5s;
+  	transition:all linear 0.5s;
+}
+.ng-hide-add{
+		-webkit-transition:all linear 0.5s;
+  	transition:all linear 0.5s;
+}
+.ng-hide-remove{
+	-webkit-transition:all linear 0.5s;
+  	transition:all linear 0.5s;
+}
+.container{
+	padding-right:0px;
+	padding-left:0px;
+	width:100%;
+}
+.menuHeader p{
+	padding-right:0px;
+}
+.chinese, .english, .price{
+font-size:12px;
+}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }

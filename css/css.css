@@ -1,0 +1,120 @@
+html, body{
+	height:100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffeedb+100 */
+	font-family:  "Trebuchet MS", Helvetica, sans-serif
+
+}
+.body{
+	height:100%
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+a{
+cursor:pointer;
+}
+/*main page*/
+
+.divider{
+	border-bottom:solid 1px #fff;
+}
+#map-canvas {
+	height:300px;
+	width:100%;
+	z-index:0;
+	top:0;
+	left:0;
+    background-color: #CCC;
+}
+.background{
+	background: url(../img/backgroundzijing.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+
+}
+#animateBox{
+opacity:0;
+
+}
+.buffer{
+	padding-top:80px;	
+}
+.centerbox{
+	background-color: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
+	border-radius:15px;
+	color:white;
+	padding:15px;
+
+}
+.centerbox h1{
+	margin:0px; 
+	padding:0px 4px;
+}
+
+.centerbox ul li h5{
+	margin:0px;
+	padding:2px;
+}
+/*navbar*/
+.navbar{
+	background-color: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.navbar ul li {
+	color:#fff;
+}
+.navbar-default .navbar-nav > li > a {
+	color:#fff;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+ .navbar-default .navbar-nav > li:hover{
+	color:#000000;
+	background-color:white;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+ .navbar-default .navbar-nav > li.menuActive,.navbar-default .navbar-nav > li.menuActive a,.navbar-default .navbar-nav > li.menuActive a:hover{
+	color:#000000;
+	background-color:white;
+
+
+}
+
+
+.navbar-default .navbar-brand p{
+	color:#fff;
+}
+
+.navbar-default .navbar-brand p:hover{
+	color:#656565;
+}
+
+

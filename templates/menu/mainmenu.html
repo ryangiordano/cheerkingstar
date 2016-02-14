@@ -1,0 +1,396 @@
+
+<div class="row hidden-sm hidden-xs" style="padding-top:20px; text-align:center">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="sectionFilter">
+            <ul id="subMenuItems">
+                <li><a ng-click="mainMenuFocus('all')"ng-class="{subActive: selectedMenu === 'all'}">View All</a></li>
+                <li><a ng-click="mainMenuFocus('Appetizers')"ng-class="{subActive: selectedMenu === 'Appetizers'}">Appetizers</a></li>
+                <li><a ng-click="mainMenuFocus('Soup')"ng-class="{subActive: selectedMenu === 'Soup'}">Soup</a></li>
+                <li><a ng-click="mainMenuFocus('Fried Rice')"ng-class="{subActive: selectedMenu === 'Fried Rice'}">Fried Rice</a></li>
+                <li><a ng-click="mainMenuFocus('Lo Mein')"ng-class="{subActive: selectedMenu === 'Lo Mein'}">Lo Mein</a></li>
+                <li><a ng-click="mainMenuFocus('Chow Mein')"ng-class="{subActive: selectedMenu === 'Chow Mein'}">Chow Mein</a></li>
+                <li><a ng-click="mainMenuFocus('Chop Suey')"ng-class="{subActive: selectedMenu === 'Chop Suey'}">Chop Suey</a></li>
+                <li><a ng-click="mainMenuFocus('Chow Mei Fun')"ng-class="{subActive: selectedMenu === 'Chow Mei Fun'}">Chow Mei Fun</a></li>
+                <li><a ng-click="mainMenuFocus('Egg Foo Young')"ng-class="{subActive: selectedMenu === 'Egg Foo Young'}">Egg Foo Young</a></li>
+                <li><a ng-click="mainMenuFocus('Pork')"ng-class="{subActive: selectedMenu === 'Pork'}">Pork</a></li>
+                <li><a ng-click="mainMenuFocus('Seafood')"ng-class="{subActive: selectedMenu === 'Seafood'}">Seafood</a></li>
+                <li><a ng-click="mainMenuFocus('Poultry')"ng-class="{subActive: selectedMenu === 'Poultry'}">Poultry</a></li>
+                <li><a ng-click="mainMenuFocus('Beef')" ng-class="{subActive: selectedMenu === 'Beef'}">Beef</a></li>
+                <li><a ng-click="mainMenuFocus('Sweet & Sour')"ng-class="{subActive: selectedMenu === 'Sweet & Sour'}">Sweet & Sour</a></li>
+                <li><a ng-click="mainMenuFocus('Vegetables')"ng-class="{subActive: selectedMenu === 'Vegetables'}">Vegetables</a></li>
+                <li><a ng-click="mainMenuFocus('Side Order')"ng-class="{subActive: selectedMenu === 'Side Order'}">Side Order</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</div><!--end row-->
+<div class="row" >
+    <div class="col-md-12" ng-show="selectedMenu === 'all' || selectedMenu === 'Appetizers'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[0].menuType}}<span style="font-size:14px"class="hidden-xs"> {{menuTypes[0].parens}}</span></h3></div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                    
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Appetizers'}" class="table table-responsive borderless">
+                           
+                                <tr>
+                                    <td nowrap>
+                                    <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                    <span class="english">{{ menu.dish }}</span></td>
+                                    <td width="100%"><span class="elipsis"></span></td>
+                                    <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                                    
+                                </tr>
+                            
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+    <div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Soup'">
+                <div class="menuWrapper">          
+                    <div class="menuHeader">
+                        <h3>{{menuTypes[1].menuType}}<span style="font-size:14px"class="hidden-xs"> {{menuTypes[1].parens}}</span></h3>
+                    
+                        <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Soup'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span>
+                                </td>
+                                <td width="100%">
+                                <span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+     </div>
+    <div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Fried Rice'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[2].menuType}} <span style="font-size:14px"class="hidden-xs"></span></h3>
+                    <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Fried Rice'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+    <div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Lo Mein'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[3].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[3].parens}}</span></h3>
+ <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Lo Mein'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Chow Mein'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[4].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[4].parens}}</span></h3>
+ <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Chow Mein'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Chop Suey'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[5].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[5].parens}}</span></h3>
+                         <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Chop Suey'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Chow Mei Fun'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[6].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[6].parens}}</span></h3>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Chow Mei Fun'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Egg Foo Young'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[7].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[7].parens}}</span></h3>
+                        
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Egg Foo Young'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Pork'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[8].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[8].parens}}</span></h3>
+ <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Pork'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Seafood'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[9].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[9].parens}}</span></h3>
+                         <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Seafood'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Poultry'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[10].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[10].parens}}</span></h3>
+                         <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Poultry'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Beef'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[11].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[11].parens}}</span></h3>
+                         <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Beef'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Sweet & Sour'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[12].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[12].parens}}</span></h3>
+                         <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Sweet & Sour'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12"ng-show="selectedMenu === 'all' || selectedMenu === 'Vegetables'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[13].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[13].parens}}</span></h3>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Vegetables'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+<div class="col-md-12" id="menuWrapper" ng-show="selectedMenu === 'all' || selectedMenu === 'Side Order'">
+                <div class="menuWrapper">                
+                    <div class="menuHeader"><h3>{{menuTypes[14].menuType}} <span style="font-size:14px"class="hidden-xs"> {{menuTypes[14].parens}}</span></h3>
+                        <p class="pull-right">Pt. / Qt.</p>
+                    </div><!--end menu header-->
+                <div id="hspecials" class="menuLayout">
+                        <tableclass="table table-responsive borderless">
+                        <tr>
+                            <td><td>
+                        </tr>
+                        </table>
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Side Order'}" class="table table-responsive borderless">
+                            <tr>
+                                <td nowrap>
+                                <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                <span class="english">{{ menu.dish }}</span></td>
+                                <td width="100%"><span class="elipsis"></span></td>
+                                <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                            </tr>
+                        </table>
+                    
+                </div><!--end hspecials-->
+            </div>
+</div>
+</div><!--end row-->
+<script>
+TweenMax.staggerTo(".menuWrapper", .2, {
+         y:"50px",
+         opacity:1,
+         delay:0.2,
+        ease: Sine.easeOut
+      },.1);
+var menuItems = document.getElementById('subMenuItems').getElementsBy
+TweenMax.staggerTo(".menuWrapper", .2, {
+         y:"50px",
+         opacity:1,
+         delay:0.2,
+        ease: Sine.easeOut
+      },.1);
+</script>

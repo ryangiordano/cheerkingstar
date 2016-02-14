@@ -1,0 +1,28 @@
+ <nav class="navbar navbar-default navbar-fixed-top" ng-controller="mainController as home">
+         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand"  ui-sref="home" ng-click="navSwitcher('')">
+                  <p>紫荊星</p>
+               </a>
+            </div>
+            <!--<img style="margin-top:-10px"class="pull-left" src="img/logozijing.png">-->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li ng-class="{menuActive : navTab =='Menu'}"><a ui-sref="menu.mainMenu" ng-click="navSwitcher('Menu')">Menu</a></li>
+                  <li ><a href="" data-toggle="modal" data-target="#mapModal" ng-click="navSwitcher('Location')">Location</a></li>
+                  <li ng-class="{menuActive : navTab =='Order'}"><a href="#" ng-click="navSwitcher('Order')">Order</a></li>
+                  <li ng-class="{menuActive : navTab =='About'}"><a href="#" ng-click="navSwitcher('About')">About</a></li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+   </nav>
