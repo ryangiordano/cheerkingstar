@@ -3462,6 +3462,366 @@
     "orderAmmount":"",
     "spicy":false,
     "dishNumber":"8"
+  },
+  {
+    "dish": "Roast Pork or Chicken Fried Rice",
+    "cDish": "捲",
+    "price": 20.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"1"
+  },
+  {
+    "dish": "Roast Pork or Chicken Lo Mein",
+    "cDish": "捲",
+    "price": 21.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"2"
+  },
+  {
+    "dish": "Sweet & Sour Chicken or Pork",
+    "cDish": "捲",
+    "price": 24.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"3"
+  },
+  {
+    "dish": "Chicken or Beef w. Broccoli",
+    "cDish": "捲",
+    "price": 26.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"4"
+  },
+  {
+    "dish": "Mixed Vegetables w. Tofu",
+    "cDish": "捲",
+    "price": 22.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"5"
+  },
+  {
+    "dish": "String Beans w. Tofu",
+    "cDish": "捲",
+    "price": 22.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"6"
+  },
+  {
+    "dish": "General Tso's Chicken",
+    "cDish": "捲",
+    "price": 29.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"7"
+  },
+  {
+    "dish": "Orange Chicken",
+    "cDish": "捲",
+    "price": 29.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"8"
+  },
+  {
+    "dish": "Szechuan Combination Garic Sauce",
+    "cDish": "捲",
+    "price": 28.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"9"
+  },
+  {
+    "dish": "Triple Combo w. Garlic Sauce",
+    "cDish": "捲",
+    "price": 28.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"10"
+  },
+  {
+    "dish": "Seafood Delight",
+    "cDish": "捲",
+    "price": 30.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"11"
+  },
+  {
+    "dish": "Happy Family",
+    "cDish": "捲",
+    "price": 30.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"12"
+  },
+  {
+    "dish": "Chicken Wings",
+    "cDish": "捲",
+    "price": 20.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"13"
+  },
+  {
+    "dish": "Cheese Wonton",
+    "cDish": "捲",
+    "price": 16.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"14"
+  },
+  {
+    "dish": "Fried Donuts",
+    "cDish": "捲",
+    "price": 16.95,
+    "sizes":"",
+    "menuType":"Party Trays",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"15"
   }
 
 

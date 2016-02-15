@@ -1,17 +1,17 @@
 <div class="row" >
   <div class="col-md-12">
               <div class="menuWrapper">
-                 <div class="menuHeader"><h3>{{menuSections[3].name}}<span style="font-size:14px"class="hidden-xs"> {{menuSections[3].parens}}</span></h3></div>
+                 <div class="menuHeader"><h3>{{menuSections[5].name}}<span style="font-size:14px"class="hidden-xs"> {{menuSections[5].parens}}</span></h3></div>
               <div id="hspecials" class="menuLayout">
 
-                      <table ng-repeat="menu in menuData | filter:{menuType: 'House Specials'}" class="table table-responsive borderless">
+                      <table ng-repeat="menu in menuData | filter:{menuType: 'Party Trays'}" class="table table-responsive borderless">
 
                               <tr>
                                   <td nowrap>
                                   <!--<span class="chinese">{{ menu.cDish }}</span>-->
                                   <span class="english">{{ menu.dish }}</span></td>
                                   <td width="100%"><span class="elipsis"></span></td>
-                                  <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
+                                  <td nowrap><span class="price">{{ menu.price | currency }} </span> </td>
 
                               </tr>
 
