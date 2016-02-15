@@ -3822,6 +3822,831 @@
     "orderAmmount":"",
     "spicy":false,
     "dishNumber":"15"
+  },
+  {
+    "dish": "Sweet and Sour Chicken or Pork",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"1"
+  },
+  {
+    "dish": "Shrimp with Lobster Sauce",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"2"
+  },
+  {
+    "dish": "Beef with Broccoli",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"3"
+  },
+  {
+    "dish": "Chicken w. Mixed Vegetables",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"4"
+  },
+  {
+    "dish": "Pepper-steak with Onions",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"5"
+  },
+  {
+    "dish": "Chicken w. Garlic Sauce",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"6"
+  },
+  {
+    "dish": "Shrimp w. Mixed Vegetables",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"7"
+  },
+  {
+    "dish": "Mixed Vegetables",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"8"
+  },
+  {
+    "dish": "Moo Goo Gai Pan",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"9"
+  },
+  {
+    "dish": "Chicken or Shrimp Chow Mein",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"10"
+  },
+  {
+    "dish": "Beef w. Snow Peas",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"11"
+  },
+  {
+    "dish": "Chicken Beef or Shrimp Lo Mein",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"12"
+  },
+  {
+    "dish": "Shrimp w. Cashews",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"13"
+  },
+  {
+    "dish": "Kung Po Chicken",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"14"
+  },
+  {
+    "dish": "Hunan Chicken",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"15"
+  },
+  {
+    "dish": "Chicken w. Broccoli",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"16"
+  },
+  {
+    "dish": "General Chicken",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"17"
+  },
+  {
+    "dish": "Shrimp w. Broccoli",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"18"
+  },
+  {
+    "dish": "Broccoli w. Garlic Sauce",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"19"
+  },
+  {
+    "dish": "Hunan Beef",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":true,
+    "dishNumber":"20"
+  },
+  {
+    "dish": "Curry Chicken",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"21"
+  },
+  {
+    "dish": "Chicken w. Cashew Nuts",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"22"
+  },
+  {
+    "dish": "Sesame Chicken",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"23"
+  },
+  {
+    "dish": "Honey Chicken",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"24"
+  },
+  {
+    "dish": "Wor Su Chicken",
+    "cDish": "捲",
+    "price": 4.99,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Lunch Specials",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"25"
+  },
+  {
+    "dish": "Steamed Chicken w. Broccoli",
+    "cDish": "捲",
+    "price": 7.45,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Healthy",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"1"
+  },
+  {
+    "dish": "Steamed Chicken w. Mixed Vegs",
+    "cDish": "捲",
+    "price": 7.45,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Healthy",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"2"
+  },
+  {
+    "dish": "Steamed Moo Goo Gai Pan",
+    "cDish": "捲",
+    "price": 7.70,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Healthy",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"3"
+  },
+  {
+    "dish": "Steamed Chicken w. Snow Peas",
+    "cDish": "捲",
+    "price": 7.70,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Healthy",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"4"
+  },
+  {
+    "dish": "Garden Delight",
+    "cDish": "捲",
+    "price": 6.70,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Healthy",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"5"
+  },
+  {
+    "dish": "Steamed Shrimp w. Broccoli",
+    "cDish": "捲",
+    "price":8.95,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Healthy",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"6"
+  },
+  {
+    "dish": "Steamed Shrimp w. Mixed Vegs",
+    "cDish": "捲",
+    "price":8.95,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Healthy",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"7"
+  },
+  {
+    "dish": "Tofu w. Vegetables",
+    "cDish": "捲",
+    "price":6.95,
+    "sizes":"",
+    "menuType":"Lunch Specials",
+    "menuSubType":"Healthy",
+    "contains":
+    {
+      "vegetarian":true,
+      "chicken":false,
+      "pork":true,
+      "beef":false,
+      "fish":false,
+      "shrimp":false,
+      "noodles":true,
+      "rice":false,
+      "eggs":true,
+      "peanuts":false
+    },
+    "pictureLink":"",
+    "orderAmmount":"",
+    "spicy":false,
+    "dishNumber":"8"
   }
 
 

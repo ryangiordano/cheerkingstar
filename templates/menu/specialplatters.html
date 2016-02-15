@@ -7,7 +7,7 @@
                 <li><a ng-click="specialPlatterFocus('pork')"ng-class="{subActive: selectedSpecialPlatter === 'pork'}">w. Chicken or Pork Fried rice</a></li>
                 <li><a ng-click="specialPlatterFocus('shrimp')"ng-class="{subActive: selectedSpecialPlatter === 'shrimp'}">w. Shrimp or Beef Fried Rice</a></li>
 
-                
+
             </ul>
         </div>
     </div>
@@ -15,23 +15,23 @@
 
 <div class="row" >
     <div class="col-md-12">
-                <div class="menuWrapper">                
+                <div class="menuWrapper">
                    <div class="menuHeader"><h3>{{menuSections[4].name}}</h3></div>
                 <div id="hspecials" class="menuLayout">
-                    
+
                         <table ng-repeat="menu in menuData | filter:{menuType: 'Special Platters'}" class="table table-responsive borderless">
-                           
+
                                 <tr>
                                     <td nowrap>
                                     <!--<span class="chinese">{{ menu.cDish }}</span>-->
                                     <span class="english">{{menu.dish}}</span></td>
                                     <td width="100%"><span class="elipsis"></span></td>
                                     <td nowrap><span class="price" ng-show="selectedSpecialPlatter === 'single'">{{ menu.price | currency }} </span><span class="price" ng-show="selectedSpecialPlatter === 'fries'">{{ menu.priceRice | currency }} </span><span class="price" ng-show="selectedSpecialPlatter === 'pork'">{{ menu.pricePorkRice | currency }} </span><span class="price" ng-show="selectedSpecialPlatter === 'shrimp'">{{ menu.priceShrimpRice | currency }} </span> </td>
-                                    
+
                                 </tr>
-                            
+
                         </table>
-                    
+
                 </div><!--end hspecials-->
             </div>
           </div>

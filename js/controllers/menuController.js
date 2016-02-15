@@ -150,4 +150,8 @@ app.controller('menuController',['$scope','$http','Menu',function($scope,$http, 
         ease: Sine.easeOut
       },.1);
 	}
+	$scope.selectedLunchSpecial = 'all';
+	$scope.lunchSpecialFocus = function(focus){
+		$scope.selectedLunchSpecial = focus;
+	}
 }]);

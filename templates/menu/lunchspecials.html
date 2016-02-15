@@ -1,27 +1,64 @@
-<div class="row" >
-    <div class="col-md-12" ng-show="selectedMenu === 'all' || selectedMenu === 'Appetizers'">
-                <div class="menuWrapper">                
-                   <div class="menuHeader"><h3>{{menuSections[2].name}}<span style="font-size:14px"class="hidden-xs"> {{menuSections[2].parens}}</span></h3></div>
+<div class="row hidden-sm hidden-xs" style="padding-top:20px; text-align:center">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="sectionFilter">
+            <ul id="subMenuItems">
+                <li><a ng-click="lunchSpecialFocus('all')"ng-class="{subActive: selectedLunchSpecial === 'all'}">Show All</a></li>
+                <li><a ng-click="lunchSpecialFocus('healthy')"ng-class="{subActive: selectedLunchSpecial === 'healthy'}">Healthy Menu</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+</div><!--end row-->
+
+<div class="row" ng-show="selectedLunchSpecial === 'all'" >
+    <div class="col-md-12">
+                <div class="menuWrapper">
+                   <div class="menuHeader"><h3>{{menuSections[2].name}}</h3></div>
                 <div id="hspecials" class="menuLayout">
-                    
-                        <table ng-repeat="menu in menuData | filter:{menuType: 'Main Menu', menuSubType: 'Lunch Specials'}" class="table table-responsive borderless">
-                           
+
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Lunch Specials',menuSubType: 'Lunch Specials'}" class="table table-responsive borderless">
+
                                 <tr>
                                     <td nowrap>
                                     <!--<span class="chinese">{{ menu.cDish }}</span>-->
-                                    <span class="english">{{ menu.dish }}</span></td>
+                                    <span class="english">{{menu.dish}}</span></td>
                                     <td width="100%"><span class="elipsis"></span></td>
-                                    <td nowrap><span class="price">{{menu.sizes[0]}}{{ menu.price | currency }} {{menu.sizes[1]}}{{ menu.priceL | currency }}</span> </td>
-                                    
+                                    <td nowrap><span class="price">{{ menu.price | currency }}
+                                    </td>
+
                                 </tr>
-                            
+
                         </table>
-                    
+
                 </div><!--end hspecials-->
             </div>
-      </div>
+          </div>
 </div><!--end row-->
+<div class="row" ng-show="selectedLunchSpecial === 'all' || selectedLunchSpecial ==='healthy'">
+    <div class="col-md-12">
+                <div class="menuWrapper">
+                   <div class="menuHeader"><h3>Healthy Food</h3></div>
+                <div id="hspecials" class="menuLayout">
 
+                        <table ng-repeat="menu in menuData | filter:{menuType: 'Lunch Specials',menuSubType: 'Healthy'}" class="table table-responsive borderless">
+
+                                <tr>
+                                    <td nowrap>
+                                    <!--<span class="chinese">{{ menu.cDish }}</span>-->
+                                    <span class="english">{{menu.dish}}</span></td>
+                                    <td width="100%"><span class="elipsis"></span></td>
+                                    <td nowrap><span class="price">{{ menu.price | currency }}
+                                    </td>
+
+                                </tr>
+
+                        </table>
+
+                </div><!--end hspecials-->
+            </div>
+          </div>
+</div><!--end row-->
 <script>
 TweenMax.staggerTo(".menuWrapper", .2, {
          y:"50px",
