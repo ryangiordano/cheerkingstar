@@ -28,7 +28,7 @@ cursor:pointer;
 .divider{
 	border-bottom:solid 1px #fff;
 }
-#map-canvas {
+#map {
 	height:300px;
 	width:100%;
 	z-index:0;
@@ -37,7 +37,7 @@ cursor:pointer;
     background-color: #CCC;
 }
 .background{
-	background: url(../img/backgroundzijing.png) no-repeat center center fixed; 
+	background: url(../img/backgroundzijing.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -55,7 +55,7 @@ opacity:0;
 
 }
 .buffer{
-	padding-top:80px;	
+	padding-top:80px;
 }
 .centerbox{
 	background-color: rgba(0, 0, 0, 0.9);
@@ -66,7 +66,7 @@ opacity:0;
 
 }
 .centerbox h1{
-	margin:0px; 
+	margin:0px;
 	padding:0px 4px;
 }
 
@@ -116,5 +116,3 @@ opacity:0;
 .navbar-default .navbar-brand p:hover{
 	color:#656565;
 }
-
-
