@@ -17,7 +17,8 @@
             $('#mapModal').on('shown.bs.modal', function () {
 
                 google.maps.event.trigger(map, "resize");
-              
+                map.panTo($scope.marker.getPosition());
+                map.setZoom(10);
             });
             </script>
          </div>
