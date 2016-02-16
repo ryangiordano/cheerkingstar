@@ -1,14 +1,31 @@
 app.controller('menuController',['$scope','$http','Menu',function($scope,$http, Menu){
-	var menuController = this;
 	Menu.all().success(function(data){
 	 	 $scope.menuData = data;
-	 	 $scope.tab = '0';
-	 	 $scope.tabChange = function(wizecks){
-
-	 	$scope.tab = wizecks;
-
-	 	 }
 	 });
+	//  Keeps tab definition on refresh
+	 	 switch(window.location.hash){
+			 case '#/menu/mainMenu':
+			 $scope.tab = '0';
+			 break;
+			 case '#/menu/houseSpecials':
+			 $scope.tab = '1';
+			 break;
+			 case '#/menu/lunchSpecials':
+			 $scope.tab = '2';
+			 break;
+			 case '#/menu/comboPlatters':
+			 $scope.tab = '3';
+			 break;
+			 case '#/menu/specialPlatters':
+			 $scope.tab = '4';
+			 break;
+			 case '#/menu/partyTray':
+			 $scope.tab = '5';
+			 break;
+		}
+		$scope.tabChange = function(wiz){
+		$scope.tab = wiz;
+	 	}
 		$scope.menuSections  =[
 		{
 			name: 'Main Menu',
@@ -42,7 +59,6 @@ app.controller('menuController',['$scope','$http','Menu',function($scope,$http, 
 		menuType: 'Appetizers',
 		parens:'',
 		display: true
-
 	},
 	{
 		menuType: 'Soup',
@@ -128,30 +144,17 @@ app.controller('menuController',['$scope','$http','Menu',function($scope,$http, 
 		display: true
 
 	}]
-	//Tabbed Menu//
+	//Tabbed Menus
 	$scope.selectedMenu = 'all';
 	$scope.mainMenuFocus = function(subMenu){
-		TweenMax.to(".menuWrapper", .2, {
-         y:"50px",
-         opacity:1,
-         delay:0.2,
-        ease: Sine.easeOut
-      },.1);
-
-		$scope.selectedMenu = subMenu;
-
+	$scope.selectedMenu = subMenu;
 	};
 	$scope.selectedSpecialPlatter = 'single';
 	$scope.specialPlatterFocus = function(focus){
-
-		$scope.selectedSpecialPlatter = focus;
-		TweenMax.to(".menuWrapper", .2, {
-         opacity:1,
-        ease: Sine.easeOut
-      },.1);
-	}
+	$scope.selectedSpecialPlatter = focus;
+	};
 	$scope.selectedLunchSpecial = 'all';
 	$scope.lunchSpecialFocus = function(focus){
-		$scope.selectedLunchSpecial = focus;
+	$scope.selectedLunchSpecial = focus;
 	}
 }]);
