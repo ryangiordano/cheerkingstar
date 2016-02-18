@@ -124,15 +124,54 @@ ol, ul {
 }
 
 .titleContainer{
-	margin:20px 0px;
+	margin:20px 0px 40px;
 	height:100px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -webkit-animation: animateTitleContainer 1s ease; /* Chrome, Safari, Opera */
+animation: animateTitleContainer 1s ease;
 }
+
+
 .titleContainer h2{
 color:#656565;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
 }
 .titleContainer p{
 color:#656565;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
 }
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animateTitleContainer {
+0%   {opacity:0;
+      top: -40px
+      }
+100% {opacity:1;
+      top: 0px
+      }
+}
+
+/* Standard syntax */
+@keyframes animateTitleContainer {
+  0%   {opacity:0;
+        top: -40px
+        }
+  100% {opacity:1;
+        top: 0px
+        }
+}
+
 .menuBack{
 	min-height:100%;
 	background-color:#ffffff;
